@@ -426,6 +426,7 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
+    clear: both;
     position: absolute;
     bottom: 0;
     width: 360px;
