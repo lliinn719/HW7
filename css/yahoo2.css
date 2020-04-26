@@ -200,7 +200,7 @@ header {
 }
 .content_center {
     width: 640px;
-    height: 1300px;
+    height: 1760px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -371,7 +371,6 @@ header {
     position: relative;
     width: 380px;
     min-width: 340px;
-    height: 1760px;
     padding: 0 5px;
     margin-top: 15px;
 }
