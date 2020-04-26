@@ -422,6 +422,8 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
+    position: relative;
+    right:0;
     margin-top: 150px;
     margin-left: 10px;
     width: 360px;
