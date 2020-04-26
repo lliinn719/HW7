@@ -200,7 +200,7 @@ header {
 }
 .content_center {
     width: 640px;
-    height: 1450px;
+    height: 1760px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -373,8 +373,8 @@ header {
     min-width: 340px;
     padding: 0 5px;
     margin-top: 15px;
-    height: 1450px;
-    min-height: 1450px;
+    height: 1760px;
+    min-height: 1760px;
 }
 .other_top .boradcast {
     width: 360px;
@@ -383,6 +383,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 15px 0;
+    background-color: #FAFAFC;
 }
 .main_title {
     display: flex;
@@ -426,11 +427,13 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 360px;
     display: flex;
     justify-content: space-between;
+    z-index: -1;
+    margin-top: 150px;
 }
 footer ul {
     width: 280px;
