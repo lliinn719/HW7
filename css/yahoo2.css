@@ -374,6 +374,7 @@ header {
     padding: 0 5px;
     margin-top: 15px;
     height: 1760px;
+    min-height: 1760px;
 }
 .other_top .boradcast {
     width: 360px;
