@@ -19,7 +19,7 @@ body {
     min-width: 1200px;
 }
 .wrapper {
-    min-width: 1200px;;
+    min-width: 1200px;
 }
 header {
     background-color: #FAFAFC;
@@ -423,13 +423,11 @@ header {
 }
 footer {
     position: relative;
-    right:0;
-    margin-top: 150px;
-    margin-left: 10px;
+    top: 150px;
     width: 360px;
-    bottom: 0;
     display: flex;
     justify-content: space-between;
+    
 }
 footer ul {
     width: 280px;
