@@ -28,6 +28,7 @@ header {
     top: 0;
     left: 0;
     position: sticky;
+    z-index: 1;
 }
 .top_nav {
     width: 100%;
@@ -199,6 +200,7 @@ header {
 }
 .content_center {
     width: 640px;
+    height: 1300px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -366,9 +368,10 @@ header {
     color: rgb(171, 174, 183);
 }
 .other {
+    position: relative;
     width: 380px;
     min-width: 340px;
-    height: 1500px;
+    height: 1760px;
     padding: 0 5px;
     margin-top: 15px;
 }
@@ -422,12 +425,11 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
-    position: relative;
-    top: 150px;
+    position: absolute;
+    bottom: 0;
     width: 360px;
     display: flex;
     justify-content: space-between;
-    
 }
 footer ul {
     width: 280px;
