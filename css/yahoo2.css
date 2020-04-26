@@ -200,7 +200,6 @@ header {
 }
 .content_center {
     width: 640px;
-    height: 1760px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -373,8 +372,8 @@ header {
     min-width: 340px;
     padding: 0 5px;
     margin-top: 15px;
-    height: 1760px;
-    min-height: 1760px;
+    height: 1400px;
+    min-height: 1400px;
 }
 .other_top .boradcast {
     width: 360px;
@@ -427,13 +426,12 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
-    position: sticky;
+    position: bottom;
     bottom: 0;
     width: 360px;
     display: flex;
     justify-content: space-between;
-    z-index: -1;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 footer ul {
     width: 280px;
