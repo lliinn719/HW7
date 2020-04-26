@@ -200,7 +200,7 @@ header {
 }
 .content_center {
     width: 640px;
-    height: 1760px;
+    height: 1450px;
     margin: 0 10px;
     margin-left: 10px;
 }
@@ -373,8 +373,8 @@ header {
     min-width: 340px;
     padding: 0 5px;
     margin-top: 15px;
-    height: 1760px;
-    min-height: 1760px;
+    height: 1450px;
+    min-height: 1450px;
 }
 .other_top .boradcast {
     width: 360px;
@@ -426,7 +426,6 @@ header {
     text-decoration: underline rgb(54, 86, 226);
 }
 footer {
-    clear: both;
     position: absolute;
     bottom: 0;
     width: 360px;
